@@ -1,0 +1,51 @@
+{
+  "gsi_bhusanket_inspection": {
+    "source": "GSI_BHUSANKET",
+    "official_title": "GSI Bhusanket / Bhooskhalan Portal",
+    "institution": "Geological Survey of India (GSI)",
+    "endpoint_inspection_results": {
+      "GSI Bhukosh Main": {
+        "url": "https://bhukosh.gsi.gov.in",
+        "status": "ERROR",
+        "error": "<urlopen error timed out>",
+        "accessible": false,
+        "notes": "Network connection error / endpoint timeout."
+      },
+      "GSI Bhusanket Portal": {
+        "url": "https://bhukosh.gsi.gov.in/bhusanket",
+        "status": "ERROR",
+        "error": "<urlopen error timed out>",
+        "accessible": false,
+        "notes": "Network connection error / endpoint timeout."
+      },
+      "GSI Bhooskhalan Portal": {
+        "url": "https://landslides.gsi.gov.in/bhooskhalan",
+        "status": "ERROR",
+        "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+        "accessible": false,
+        "notes": "Network connection error / endpoint timeout."
+      }
+    },
+    "geometry_availability": "UNKNOWN / UNGATED BULK EXPORT NOT AVAILABLE",
+    "actual_format_found": "Web GIS Map Layers (WMS) & PDF Incidence Reports",
+    "provenance_disposition": "RESEARCH ONLY / HIGH-PRIORITY REQUISITION (No bulk vector endpoint was identified during the inspected routes. Geometry cannot be fabricated from WMS/PDFs)."
+  },
+  "zenodo_19421112_inspection": {
+    "source_id": "ZENODO_19421112",
+    "dataset_name": "Data for Landslide Susceptibility Mapping in the Sikkim Himalaya",
+    "zenodo_url": "https://zenodo.org/records/19421112",
+    "quarantine_status": "QUARANTINED / SUSCEPTIBILITY DATASET / INVENTORY CONTENT UNKNOWN",
+    "sandbox_path": "d:\\karunya\\hackathon\\SIH\\Sikkim landslide hotspot analysis\\scratch\\sandbox_zenodo_19421112",
+    "api_metadata": {
+      "record_id": "19421112",
+      "title": "Data for Landslide Susceptibility Mapping in the Sikkim Himalaya",
+      "api_error": "HTTP Error 403: Forbidden"
+    },
+    "security_audit": {
+      "path_traversal_check": "PASSED (Strict filename validation enforced)",
+      "compression_ratio_check": "PASSED (Quota limit enforced)",
+      "quarantine_verdict": "Dataset contains susceptibility factor layers/maps. Inventory geometry content UNKNOWN until manual admin unpacks RAR archive in sandbox."
+    },
+    "disposition": "QUARANTINED / SUSCEPTIBILITY DATASET / INVENTORY CONTENT UNKNOWN (Excluded from primary inventory density grids until vector inventory geometries are proven)."
+  }
+}

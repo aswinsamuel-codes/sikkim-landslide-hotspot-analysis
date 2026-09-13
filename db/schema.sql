@@ -336,3 +336,32 @@ CREATE TABLE model_predictions (
     predicted_at   TIMESTAMPTZ NOT NULL DEFAULT now(),
     PRIMARY KEY (model_id, cell_id)
 );
+
+-- 10. PHASE 3 MULTI-SOURCE PROVENANCE & QUARANTINE TABLES
+CREATE TABLE IF NOT EXISTS dataset_quarantine_log (
+    quarantine_id SERIAL PRIMARY KEY,
+    source_id VARCHAR(64) NOT NULL,
+    archive_filename VARCHAR(256) NOT NULL,
+    file_size_bytes BIGINT NOT NULL,
+    inspection_status VARCHAR(64) NOT NULL, -- QUARANTINED, INSPECTED, REJECTED, APPROVED
+    path_traversal_check BOOLEAN DEFAULT FALSE,
+    compression_ratio_check BOOLEAN DEFAULT FALSE,
+    inspection_summary JSONB,
+    inspected_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+CREATE TABLE IF NOT EXISTS source_features (
+    feature_id VARCHAR(64) PRIMARY KEY,
+    source_id VARCHAR(64) NOT NULL REFERENCES sources(source_id),
+    original_feature_id VARCHAR(128) NOT NULL,
+    geometry_type VARCHAR(32) NOT NULL, -- Point, Polygon, MultiPolygon
+    feature_class VARCHAR(64) NOT NULL, -- SOURCE_FEATURE, DERIVED_SPATIAL_ASSOCIATION
+    provenance_tier VARCHAR(1) NOT NULL, -- A, B, C, D
+    observation_year INT,                -- Imagery observation year (NULL if unspecified)
+    event_date DATE,                     -- Event failure date (STRICTLY NULL for imagery observation)
+    source_attributes JSONB,             -- Raw key-value attributes from source
+    geom geometry(Geometry, 4326) NOT NULL,
+    geom_utm geometry(Geometry, 32645) NOT NULL,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+

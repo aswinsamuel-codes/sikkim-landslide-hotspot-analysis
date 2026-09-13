@@ -1,0 +1,68 @@
+{
+  "report_type": "PHASE_3_INGEST_AND_SPATIAL_QA",
+  "generated_at": "2026-09-13T20:48:04.192377",
+  "phase3_status": "Phase 3 initial implementation complete; authoritative source acquisition remains pending.",
+  "overall_qa_status": "PASSED_100_PERCENT",
+  "baseline_preservation": {
+    "phase_2d_baseline_features": 507,
+    "ge_polygon_features": 255,
+    "ge_point_features": 185,
+    "cartosat_polygon_features": 67,
+    "derived_cartosat_unions_excluded": 23,
+    "recurrence_eligible_years": 0,
+    "mapped_extent_area_km2": 2962.146802,
+    "relative_area_error_pct": 0.186927,
+    "baseline_unmodified": true
+  },
+  "inspection_summary": {
+    "gsi_bhusanket": {
+      "source": "GSI_BHUSANKET",
+      "urls_inspected": [
+        "https://bhukosh.gsi.gov.in",
+        "https://bhukosh.gsi.gov.in/bhusanket",
+        "https://landslides.gsi.gov.in/bhooskhalan"
+      ],
+      "geometry_availability": "UNKNOWN / PENDING REQUISITION",
+      "provenance_disposition": "RESEARCH ONLY / HIGH-PRIORITY REQUISITION (No bulk vector endpoint was identified during the inspected routes. Geometry cannot be fabricated from WMS/PDFs).",
+      "direct_vector_gis_url_found": false
+    },
+    "zenodo_19421112": {
+      "source_id": "ZENODO_19421112",
+      "dataset_name": "Data for Landslide Susceptibility Mapping in the Sikkim Himalaya",
+      "quarantine_status": "QUARANTINED / SUSCEPTIBILITY DATASET / INVENTORY CONTENT UNKNOWN",
+      "file_name": "Sikkim_landslide_susceptibility_data.rar",
+      "file_size_bytes": 295698432,
+      "included_in_primary_inventory": false
+    }
+  },
+  "secondary_validation_layer": {
+    "dataset": "NASA_COOLR",
+    "layer_type": "SECONDARY_EVENT_VALIDATION_POINT",
+    "feature_count": 2,
+    "usable_for_density_grid": false,
+    "density_grid_exclusion": "STRICTLY_EXCLUDED"
+  },
+  "deduplication_candidate_linking": {
+    "deduplication_strategy": "NON_DESTRUCTIVE_CROSS_SOURCE_LINKING",
+    "raw_source_rows_preserved": 507,
+    "raw_source_rows_deleted": 0,
+    "raw_source_rows_merged": 0,
+    "derived_scarp_deposit_associations": 23,
+    "bbox_candidate_overlaps": 10,
+    "raw_cartosat_polygons": 67,
+    "confirmed_cross_source_duplicates": 0,
+    "candidate_derived_semantics_explicit": true
+  },
+  "schema_additions": [
+    "dataset_quarantine_log",
+    "source_features"
+  ],
+  "test_suite_verification": {
+    "baseline_tests": 43,
+    "phase3_tests": 13,
+    "total_tests": 56,
+    "passed_tests": 56,
+    "failed_tests": 0,
+    "pass_rate_pct": 100.0
+  }
+}

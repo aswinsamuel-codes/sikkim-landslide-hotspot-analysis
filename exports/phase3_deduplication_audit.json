@@ -1,0 +1,236 @@
+{
+  "summary": {
+    "engine": "Non-Destructive Duplicate Candidate Linker",
+    "derived_spatial_associations_linked": 23,
+    "bbox_candidate_groups_linked": 10,
+    "raw_source_rows_preserved": 507,
+    "raw_source_rows_deleted": 0,
+    "raw_source_rows_merged": 0,
+    "policy": "NON_DESTRUCTIVE_LINKING_ONLY"
+  },
+  "cartosat_unions": [
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_9",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_9_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_9_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_10",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_10_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_10_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_12",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_12_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_12_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_13",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_13_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_13_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_16",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_16_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_16_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_20",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_20_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_20_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_22",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_22_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_22_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_24",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_24_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_24_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_26",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_26_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_26_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_39",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_39_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_39_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_46",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_46_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_46_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_48",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_48_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_48_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_49",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_49_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_49_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_51",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_51_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_51_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_53",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_53_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_53_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_55",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_55_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_55_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_57",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_57_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_57_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_59",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_59_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_59_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_61",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_61_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_61_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_63",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_63_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_63_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_65",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_65_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_65_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_67",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_67_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_67_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    },
+    {
+      "group_id": "GROUP_CARTOSAT_UNION_DERIVED_UNION_SCARP_CARTOSAT_2",
+      "primary_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_2_SCARP",
+      "associated_feature_id": "CART_POLYGON_DERIVED_UNION_SCARP_CARTOSAT_2_DEPOSIT",
+      "association_type": "DERIVED_SPATIAL_ASSOCIATION_SCARP_DEPOSIT",
+      "notes": "Cartosat scarp and deposit mapped separately in source DBF, linked in derived spatial union."
+    }
+  ],
+  "sample_bbox_candidates": [
+    {
+      "group_id": "GROUP_CANDIDATE_GE_PT_GE_PT_1",
+      "primary_feature_id": "GE_PT_GE_PT_1",
+      "association_type": "SPATIAL_CANDIDATE_BBOX_OVERLAP",
+      "notes": "Candidate bounding box overlap registered for multi-source spatial inspection."
+    },
+    {
+      "group_id": "GROUP_CANDIDATE_GE_PT_GE_PT_2",
+      "primary_feature_id": "GE_PT_GE_PT_2",
+      "association_type": "SPATIAL_CANDIDATE_BBOX_OVERLAP",
+      "notes": "Candidate bounding box overlap registered for multi-source spatial inspection."
+    },
+    {
+      "group_id": "GROUP_CANDIDATE_GE_PT_GE_PT_3",
+      "primary_feature_id": "GE_PT_GE_PT_3",
+      "association_type": "SPATIAL_CANDIDATE_BBOX_OVERLAP",
+      "notes": "Candidate bounding box overlap registered for multi-source spatial inspection."
+    },
+    {
+      "group_id": "GROUP_CANDIDATE_GE_PT_GE_PT_4",
+      "primary_feature_id": "GE_PT_GE_PT_4",
+      "association_type": "SPATIAL_CANDIDATE_BBOX_OVERLAP",
+      "notes": "Candidate bounding box overlap registered for multi-source spatial inspection."
+    },
+    {
+      "group_id": "GROUP_CANDIDATE_GE_PT_GE_PT_5",
+      "primary_feature_id": "GE_PT_GE_PT_5",
+      "association_type": "SPATIAL_CANDIDATE_BBOX_OVERLAP",
+      "notes": "Candidate bounding box overlap registered for multi-source spatial inspection."
+    },
+    {
+      "group_id": "GROUP_CANDIDATE_GE_PT_GE_PT_6",
+      "primary_feature_id": "GE_PT_GE_PT_6",
+      "association_type": "SPATIAL_CANDIDATE_BBOX_OVERLAP",
+      "notes": "Candidate bounding box overlap registered for multi-source spatial inspection."
+    },
+    {
+      "group_id": "GROUP_CANDIDATE_GE_PT_GE_PT_7",
+      "primary_feature_id": "GE_PT_GE_PT_7",
+      "association_type": "SPATIAL_CANDIDATE_BBOX_OVERLAP",
+      "notes": "Candidate bounding box overlap registered for multi-source spatial inspection."
+    },
+    {
+      "group_id": "GROUP_CANDIDATE_GE_PT_GE_PT_8",
+      "primary_feature_id": "GE_PT_GE_PT_8",
+      "association_type": "SPATIAL_CANDIDATE_BBOX_OVERLAP",
+      "notes": "Candidate bounding box overlap registered for multi-source spatial inspection."
+    },
+    {
+      "group_id": "GROUP_CANDIDATE_GE_PT_GE_PT_9",
+      "primary_feature_id": "GE_PT_GE_PT_9",
+      "association_type": "SPATIAL_CANDIDATE_BBOX_OVERLAP",
+      "notes": "Candidate bounding box overlap registered for multi-source spatial inspection."
+    },
+    {
+      "group_id": "GROUP_CANDIDATE_GE_PT_GE_PT_10",
+      "primary_feature_id": "GE_PT_GE_PT_10",
+      "association_type": "SPATIAL_CANDIDATE_BBOX_OVERLAP",
+      "notes": "Candidate bounding box overlap registered for multi-source spatial inspection."
+    }
+  ]
+}
