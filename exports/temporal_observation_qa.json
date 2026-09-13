@@ -1,0 +1,126 @@
+{
+  "module": "Sikkim Historical Landslide Intelligence \u2014 Temporal Observation Analysis",
+  "dataset": "ZENODO_8169506",
+  "execution_timestamp": "2026-09-13",
+  "mandatory_limitation": "Observation year indicates the year associated with the source imagery/observation record. It is not a confirmed landslide failure date.",
+  "summary_metrics": {
+    "total_source_inventory_features": 507,
+    "ge_polygons_feature_count": 255,
+    "ge_points_feature_count": 185,
+    "cartosat_polygons_feature_count": 67,
+    "ge_mapped_extent_count": 1,
+    "valid_observation_years_count": 11,
+    "valid_observation_years_list": [
+      2002,
+      2005,
+      2006,
+      2009,
+      2010,
+      2011,
+      2012,
+      2015,
+      2017,
+      2018,
+      2019
+    ],
+    "earliest_observation_year": 2002,
+    "latest_observation_year": 2019
+  },
+  "observation_year_feature_counts": {
+    "ge_polygons": {
+      "2011": 152,
+      "2019": 1,
+      "2017": 10,
+      "NULL": 23,
+      "2006": 10,
+      "2002": 9,
+      "2010": 12,
+      "2009": 5,
+      "2015": 8,
+      "2005": 8,
+      "2012": 15,
+      "2018": 2
+    },
+    "ge_points": {
+      "NULL": 122,
+      "2017": 3,
+      "2011": 37,
+      "2010": 9,
+      "2012": 3,
+      "2006": 1,
+      "2005": 4,
+      "2002": 1,
+      "2015": 4,
+      "2009": 1
+    },
+    "cartosat": {
+      "NULL": 67
+    }
+  },
+  "null_unparsed_temporal_records": {
+    "ge_polygons_null_count": 23,
+    "ge_polygons_null_sample_strings": [
+      "",
+      "1/9/2015",
+      "2009\nActive\nPersistent",
+      "2011\npersistent",
+      "2015\nActive",
+      "2017\nActive",
+      "2017\nDzongu landslide",
+      "2017\nShadow",
+      "2017\nTerraced farm washed away",
+      "Active"
+    ],
+    "ge_points_null_count": 122,
+    "ge_points_null_sample_strings": [
+      "",
+      "10/5/2011",
+      "12/3/2010",
+      "Active",
+      "Active\n2011",
+      "Active\nImage 10/5/2011",
+      "Definite\nActive",
+      "Definite\nActive\nWith depositional fan",
+      "Definite \nActive",
+      "Dipslope"
+    ],
+    "cartosat_null_count": 67
+  },
+  "temporal_geojson_layers_created": [
+    "zenodo_observations_2002_4326.geojson",
+    "zenodo_observations_2005_4326.geojson",
+    "zenodo_observations_2006_4326.geojson",
+    "zenodo_observations_2009_4326.geojson",
+    "zenodo_observations_2010_4326.geojson",
+    "zenodo_observations_2011_4326.geojson",
+    "zenodo_observations_2012_4326.geojson",
+    "zenodo_observations_2015_4326.geojson",
+    "zenodo_observations_2017_4326.geojson",
+    "zenodo_observations_2018_4326.geojson",
+    "zenodo_observations_2019_4326.geojson",
+    "zenodo_observations_unspecified_active_4326.geojson"
+  ],
+  "cross_source_spatial_candidate_overlaps": {
+    "disclaimer": "BBOX spatial candidate overlap reports bounding-box relationships ONLY. It is NOT proof of actual geometry intersection or common landslide identity.",
+    "ge_points_in_ge_polygon_bbox": {
+      "ge_points_feature_count": 185,
+      "points_in_ge_polygon_bbox": 4,
+      "percentage": 2.16
+    },
+    "ge_polygons_in_cartosat_bbox": {
+      "ge_polygons_feature_count": 255,
+      "polygons_in_cartosat_bbox": 1,
+      "percentage": 0.39
+    },
+    "ge_points_in_cartosat_bbox": {
+      "ge_points_feature_count": 185,
+      "points_in_cartosat_bbox": 0,
+      "percentage": 0.0
+    },
+    "cartosat_scarp_deposit_spatial_associations": {
+      "scarp_feature_count": 23,
+      "deposit_feature_count": 25,
+      "derived_spatial_unions": 23
+    }
+  }
+}

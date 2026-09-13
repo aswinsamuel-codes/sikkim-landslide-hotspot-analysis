@@ -1,0 +1,68 @@
+{
+  "sikkim_state_boundary_4326.geojson": {
+    "layer_title": "Sikkim State Boundary",
+    "total_features": 1,
+    "valid_geometries": 1,
+    "invalid_geometries": 0,
+    "completely_inside_boundary": 1,
+    "touching_intersecting_boundary": 0,
+    "completely_outside_boundary": 0,
+    "percentage_inside_sikkim": 100.0,
+    "crs": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  },
+  "zenodo_ge_polygons_4326.geojson": {
+    "layer_title": "Google Earth Landslide Polygons",
+    "total_features": 255,
+    "valid_geometries": 255,
+    "invalid_geometries": 0,
+    "completely_inside_boundary": 255,
+    "touching_intersecting_boundary": 0,
+    "completely_outside_boundary": 0,
+    "percentage_inside_sikkim": 100.0,
+    "crs": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  },
+  "zenodo_ge_points_4326.geojson": {
+    "layer_title": "Google Earth Landslide Points",
+    "total_features": 185,
+    "valid_geometries": 185,
+    "invalid_geometries": 0,
+    "completely_inside_boundary": 185,
+    "touching_intersecting_boundary": 0,
+    "completely_outside_boundary": 0,
+    "percentage_inside_sikkim": 100.0,
+    "crs": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  },
+  "zenodo_cartosat_polygons_4326.geojson": {
+    "layer_title": "Cartosat Landslide Polygons",
+    "total_features": 67,
+    "valid_geometries": 67,
+    "invalid_geometries": 0,
+    "completely_inside_boundary": 67,
+    "touching_intersecting_boundary": 0,
+    "completely_outside_boundary": 0,
+    "percentage_inside_sikkim": 100.0,
+    "crs": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  },
+  "zenodo_cartosat_scarp_deposit_unions_4326.geojson": {
+    "layer_title": "Cartosat Derived Unions",
+    "total_features": 23,
+    "valid_geometries": 23,
+    "invalid_geometries": 0,
+    "completely_inside_boundary": 23,
+    "touching_intersecting_boundary": 0,
+    "completely_outside_boundary": 0,
+    "percentage_inside_sikkim": 100.0,
+    "crs": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  },
+  "zenodo_mapped_extent_4326.geojson": {
+    "layer_title": "Google Earth Mapped Extent Footprint",
+    "total_features": 1,
+    "valid_geometries": 1,
+    "invalid_geometries": 0,
+    "completely_inside_boundary": 0,
+    "touching_intersecting_boundary": 1,
+    "completely_outside_boundary": 0,
+    "percentage_inside_sikkim": 100.0,
+    "crs": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+}

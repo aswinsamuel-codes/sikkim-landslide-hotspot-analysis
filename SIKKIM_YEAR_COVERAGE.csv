@@ -1,0 +1,16 @@
+year,statewide_polygon_inventory,status,contributing_sources,observed_extent,trigger_regime,usable_for_recurrence_denominator,notes
+2011,YES,AVAILABLE,"Bhuvan event-based 18/09/2011 (1196 landslides); Zenodo Cartosat 30/09/2011 (44 features)",PARTIAL - 4105 sq km analysed by NRSC; 851+957 sq km Cartosat pair,Earthquake (Mw 6.9),YES - within mapped extent only,Not a monsoon year comparison; earthquake inventories over-represent high-relief North Sikkim
+2012,NO,PARTIAL COVERAGE,Zenodo Google Earth inventory (year-of-first-appearance attribute); NASA COOLR reports,Southern Sikkim ~3000 sq km,Monsoon,NO,Zenodo year field is year of first image not failure date; cannot be treated as an event year
+2013,NO,PARTIAL COVERAGE,Zenodo Google Earth inventory; NASA COOLR reports,Southern Sikkim ~3000 sq km,Monsoon,NO,Same limitation as 2012
+2014,YES,AVAILABLE,Bhuvan seasonal inventory - Sikkim 2014,Statewide,Monsoon,YES,One of the two directly comparable monsoon-season statewide years
+2015,NO,PARTIAL COVERAGE,Zenodo Google Earth inventory; NASA COOLR reports,Southern Sikkim ~3000 sq km,Monsoon,NO,
+2016,NO,PARTIAL COVERAGE,NRSC Sikkim Landslide Inventory 2016 (PDF report only),Statewide but report-level,Monsoon,NO - no geometry,District counts may be extractable from the PDF; insufficient for a 1 km grid
+2017,YES,AVAILABLE,Bhuvan seasonal inventory - Sikkim 2017,Statewide,Monsoon,YES,Directly comparable with 2014
+2018,NO,PARTIAL COVERAGE,Zenodo Google Earth inventory; NASA COOLR reports,Southern Sikkim ~3000 sq km,Monsoon,NO,
+2019,NO,PARTIAL COVERAGE,Zenodo Google Earth inventory (ends 2019); NASA COOLR reports,Southern Sikkim ~3000 sq km,Monsoon,NO,Zenodo ground-truthing field visit Feb-Mar 2019
+2020,NO,DATA NOT AVAILABLE,NASA COOLR reports only (sparse),None,Monsoon,NO,No systematic Sikkim mapping identified for this year
+2021,NO,DATA NOT AVAILABLE,NASA COOLR reports only (sparse),None,Monsoon,NO,District reorganisation took effect 21 Dec 2021
+2022,NO,DATA NOT AVAILABLE,NASA COOLR reports only (sparse),None,Monsoon,NO,Landslide Atlas of India ends 2022 but adds no new Sikkim-specific mapping year
+2023,YES,AVAILABLE,Bhuvan seasonal inventory - Sikkim 2023; peer-reviewed Oct-2023 GLOF studies,Statewide,Monsoon + GLOF cascade (South Lhonak 03-04 Oct 2023),YES,Mixed trigger regime - counts not 1:1 comparable with 2014/2017
+2024,NO,DATA NOT AVAILABLE,GSI Bhusanket incidence reports (site-specific); NASA COOLR,Site-specific only,Monsoon,NO,No statewide inventory published as of the research date
+2025,NO,DATA NOT AVAILABLE,GSI Bhusanket incidence reports (site-specific); NASA COOLR; news reports,Site-specific only,Monsoon,NO,No statewide inventory published as of the research date

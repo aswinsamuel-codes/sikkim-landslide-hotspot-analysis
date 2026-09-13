@@ -1,0 +1,77 @@
+{
+  "module": "SIH26001_Sikkim_Historical_Landslide_Intelligence",
+  "version": "2.0",
+  "description": "Machine-readable field semantics contract enforcing research constraints for Sikkim landslide intelligence.",
+  "forbidden_mappings": [
+    {
+      "rule_id": "FM-01",
+      "source_field": "Year",
+      "target_field": "date_start",
+      "source": "Zenodo_8169506",
+      "reason": "Zenodo Year represents imagery observation/acquisition year, NOT failure or event occurrence date."
+    },
+    {
+      "rule_id": "FM-02",
+      "source_field": "district",
+      "target_field": "district_assignment",
+      "mapping_type": "string_rename",
+      "reason": "District assignment by string matching is forbidden. Attribution must be spatial join against boundary valid at event date."
+    },
+    {
+      "rule_id": "FM-03",
+      "source_field": "distance_to_road_m",
+      "target_field": "road_blockage",
+      "reason": "Road proximity does not imply road blockage or damage. Blockage requires documentary evidence in road_impact_reports."
+    },
+    {
+      "rule_id": "FM-04",
+      "source_field": "population_model",
+      "target_field": "observed_population",
+      "reason": "WorldPop / GHSL figures are DERIVED or ESTIMATED, never OBSERVED. Census 2021 was not conducted."
+    },
+    {
+      "rule_id": "FM-05",
+      "source_field": "GSI_NLSM",
+      "target_field": "training_label",
+      "reason": "GSI NLSM susceptibility map must never be used as ML training target or hotspot component."
+    },
+    {
+      "rule_id": "FM-06",
+      "source_field": "Bhuvan_Atlas",
+      "target_field": "independent_event_count",
+      "reason": "Bhuvan Atlas summary figures must not be added to point/polygon inventories to prevent double counting."
+    },
+    {
+      "rule_id": "FM-07",
+      "source_field": "GGLI",
+      "target_field": "landslide_events",
+      "reason": "NASA GGLI rows are cell-days, not events. GGLI and COOLR must not both be ingested as event inventories."
+    }
+  ],
+  "required_fields": {
+    "landslide_events": [
+      "event_id",
+      "source",
+      "provenance",
+      "district_current",
+      "district_at_event_time"
+    ],
+    "year_coverage": [
+      "year",
+      "inventory_exists",
+      "geometry_held",
+      "extent_held",
+      "usable_for_denominator"
+    ],
+    "cell_year_observations": [
+      "cell_id",
+      "year",
+      "observation_status",
+      "denominator_eligible",
+      "landslide_count",
+      "landslide_area_m2"
+    ]
+  },
+  "observation_status_enum": ["NOT_OBSERVED", "PARTIALLY_OBSERVED", "OBSERVED"],
+  "extent_basis_enum": ["published_polygon", "published_area_figure", "assumed_statewide", "unknown"]
+}

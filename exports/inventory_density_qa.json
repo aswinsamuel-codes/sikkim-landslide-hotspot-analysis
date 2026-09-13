@@ -1,0 +1,85 @@
+{
+  "module": "Sikkim Historical Landslide Intelligence \u2014 Phase 2D Final GIS QA",
+  "dataset": "ZENODO_8169506",
+  "execution_timestamp": "2026-09-13",
+  "grid_specification": {
+    "geographic_crs": "EPSG:4326 (WGS 84)",
+    "projected_analysis_crs": "EPSG:32645 (UTM Zone 45N)",
+    "cell_resolution_meters": 1000,
+    "nominal_cell_area_km2": 1.0,
+    "grid_cell_centers_in_state": 7355,
+    "gadm_sikkim_boundary_polygon_area_km2": 7081.540805,
+    "sum_grid_cell_in_state_area_km2": 7079.477653,
+    "reference_sikkim_administrative_area_km2": 7096.0,
+    "discrepancy_note": "The boundary-derived state area (GADM v4.1 polygon: 7,081.54 km\u00b2, grid-intersection sum: 7,079.48 km\u00b2) and reference administrative-area definition (~7,096.00 km\u00b2) differ; they are reported separately and not described as matching."
+  },
+  "boundary_area_conservation_qa": {
+    "gadm_sikkim_boundary_polygon_area_km2": 7081.540805,
+    "sum_grid_cell_in_state_area_km2": 7079.477653,
+    "absolute_error_km2": 2.063151,
+    "relative_error_percent": 0.029134,
+    "tolerance_threshold_percent": 0.5,
+    "qa_result": "PASSED_WITHIN_TOLERANCE"
+  },
+  "mapped_extent_area_conservation_qa": {
+    "zenodo_8169506_mapped_extent_polygon_area_km2": 2962.146802,
+    "sum_grid_cell_extent_intersection_area_km2": 2956.60975,
+    "absolute_error_km2": 5.537052,
+    "relative_error_percent": 0.186927,
+    "tolerance_threshold_percent": 0.5,
+    "shapely_crosscheck_status": "VERIFIED_EXACT_MATCH_WITH_SHAPELY",
+    "qa_result": "PASSED_WITHIN_TOLERANCE"
+  },
+  "true_geometric_centroid_assignment_audit": {
+    "GE_POLYGON": {
+      "total_source_features": 255,
+      "features_assigned_by_true_geometric_centroid": 255,
+      "features_spanning_gt_1_cell": 70,
+      "maximum_cells_crossed_by_any_feature": 4
+    },
+    "GE_POINT": {
+      "total_source_features": 185,
+      "features_assigned_by_true_geometric_centroid": 185,
+      "features_spanning_gt_1_cell": 0,
+      "maximum_cells_crossed_by_any_feature": 1
+    },
+    "CARTOSAT_POLYGON": {
+      "total_source_features": 67,
+      "features_assigned_by_true_geometric_centroid": 67,
+      "features_spanning_gt_1_cell": 51,
+      "maximum_cells_crossed_by_any_feature": 7
+    }
+  },
+  "feature_coverage_assignment_audit": {
+    "features_in_observed_cells": 497,
+    "features_in_partially_covered_cells": 10,
+    "features_in_data_not_held_cells": 0,
+    "partially_covered_feature_ids": [
+      "CARTOSAT_18",
+      "CARTOSAT_46",
+      "CARTOSAT_45",
+      "CARTOSAT_47",
+      "CARTOSAT_48",
+      "GE_PT_171",
+      "GE_PT_172",
+      "GE_PT_173",
+      "GE_PT_175",
+      "GE_PT_176"
+    ],
+    "silently_discarded_features_count": 0
+  },
+  "source_feature_reconciliation": {
+    "ge_polygons_assigned": 255,
+    "ge_points_assigned": 185,
+    "cartosat_polygons_assigned": 67,
+    "total_source_inventory_features_assigned": 507,
+    "expected_source_features": 507,
+    "reconciliation_status": "EXACT_MATCH_100_PERCENT",
+    "derived_cartosat_unions_excluded": 23
+  },
+  "density_denominator_semantics": {
+    "density_field_name": "centroid_assigned_inventory_feature_density_per_km2",
+    "denominator_used": "nominal_cell_area_km2 (1.0 km\u00b2)",
+    "in_state_area_substitutions": 0
+  }
+}

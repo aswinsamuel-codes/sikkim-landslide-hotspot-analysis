@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches & Test Artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+.tox/
+.hypothesis/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+*.crt
+
+# Scratch, Temporary & Downloading Artifacts
+scratch/
+*.tmp
+*.log
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+
+# Logs
+logs/
+*.log
+
+# Raw Datasets & Third-Party Spatial Downloads (Redistribution & Provenance)
+data/raw/
+!data/raw/boundaries/sikkim_state_boundary.geojson
+!data/raw/.gitkeep
+
+# Derived Build Datasets (Reproducible GeoJSON Grids & Temp Processing)
+data/derived/
+!data/derived/.gitkeep
+data/processed/
+!data/processed/.gitkeep
+
+# Operating System & IDE Artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

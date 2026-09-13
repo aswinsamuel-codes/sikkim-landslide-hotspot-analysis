@@ -1,0 +1,16 @@
+year,handoff_class,inventory_exists,geometry_held,extent_held,usable_for_denominator,trigger_regime,trigger_confidence,notes
+2011,EVENT-SPECIFIC,TRUE,FALSE,FALSE,FALSE,earthquake,ESTABLISHED,Martha et al. (2014) count (1196); geometry NOT HELD locally; pending non-circular extent
+2012,RESEARCH-ONLY,TRUE,TRUE,TRUE,FALSE,monsoon,ESTABLISHED,Zenodo Google Earth inventory (observation_year); geometry held; excluded from recurrence
+2013,RESEARCH-ONLY,TRUE,TRUE,TRUE,FALSE,monsoon,ESTABLISHED,Zenodo Google Earth inventory (observation_year); geometry held; excluded from recurrence
+2014,SYSTEMATIC,TRUE,FALSE,FALSE,FALSE,monsoon,ESTABLISHED,Bhuvan seasonal inventory layer exists; geometry NOT HELD locally
+2015,RESEARCH-ONLY,TRUE,TRUE,TRUE,FALSE,monsoon,ESTABLISHED,Zenodo Google Earth inventory (observation_year); geometry held; excluded from recurrence
+2016,PARTIAL,TRUE,FALSE,FALSE,FALSE,monsoon,ESTABLISHED,NRSC PDF report only; no geometry held
+2017,SYSTEMATIC,TRUE,FALSE,FALSE,FALSE,monsoon,ESTABLISHED,Bhuvan seasonal inventory layer exists; geometry NOT HELD locally
+2018,RESEARCH-ONLY,TRUE,TRUE,TRUE,FALSE,monsoon,ESTABLISHED,Zenodo Google Earth inventory (observation_year); geometry held; excluded from recurrence
+2019,RESEARCH-ONLY,TRUE,TRUE,TRUE,FALSE,monsoon,ESTABLISHED,Zenodo Google Earth inventory (observation_year); geometry held; excluded from recurrence
+2020,SECONDARY,FALSE,FALSE,FALSE,FALSE,monsoon,UNVERIFIED,NASA COOLR sparse reports only; no systematic geometry
+2021,SECONDARY,FALSE,FALSE,FALSE,FALSE,monsoon,UNVERIFIED,NASA COOLR sparse reports only; district reorganization effective 2021-12-13
+2022,SECONDARY,FALSE,FALSE,FALSE,FALSE,monsoon,UNVERIFIED,NASA COOLR sparse reports only; no systematic geometry
+2023,SYSTEMATIC,TRUE,FALSE,FALSE,FALSE,monsoon+glof,INFERRED,Bhuvan seasonal layer exists; trigger INFERRED; geometry NOT HELD locally
+2024,NOT_IDENTIFIED,FALSE,FALSE,FALSE,FALSE,monsoon,UNVERIFIED,Site-specific GSI reports only; no systematic inventory
+2025,NOT_IDENTIFIED,FALSE,FALSE,FALSE,FALSE,monsoon,UNVERIFIED,Site-specific GSI reports only; no systematic inventory
