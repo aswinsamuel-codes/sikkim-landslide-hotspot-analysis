@@ -1,0 +1,79 @@
+{
+  "source_id": "GSI_BHUSANKET",
+  "dataset_name": "Geological Survey of India (GSI) Bhusanket & Bhooskhalan Landslide Ecosystem",
+  "organization": "Geological Survey of India (GSI) / Ministry of Mines",
+  "investigated_endpoints": {
+    "GSI Bhukosh Main Portal": {
+      "url": "https://bhukosh.gsi.gov.in",
+      "status": null,
+      "error": "<urlopen error timed out>",
+      "accessible": false,
+      "vector_gis_url_found": false,
+      "access_mode": "TIMEOUT_OR_NETWORK_RESTRICTED"
+    },
+    "GSI Bhusanket Portal": {
+      "url": "https://bhukosh.gsi.gov.in/bhusanket",
+      "status": null,
+      "error": "<urlopen error timed out>",
+      "accessible": false,
+      "vector_gis_url_found": false,
+      "access_mode": "TIMEOUT_OR_NETWORK_RESTRICTED"
+    },
+    "GSI Bhooskhalan Landslide Portal": {
+      "url": "https://landslides.gsi.gov.in/bhooskhalan",
+      "status": null,
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "accessible": false,
+      "vector_gis_url_found": false,
+      "access_mode": "TIMEOUT_OR_NETWORK_RESTRICTED"
+    },
+    "GSI National Landslide Susceptibility Mapping (NLSM) Interface": {
+      "url": "https://landslides.gsi.gov.in/nlsm",
+      "status": null,
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "accessible": false,
+      "vector_gis_url_found": false,
+      "access_mode": "TIMEOUT_OR_NETWORK_RESTRICTED"
+    }
+  },
+  "gsi_source_breakdown": {
+    "A_bulk_sikkim_vector_inventory": {
+      "status": "UNAVAILABLE_PUBLICLY",
+      "description": "No unauthenticated public endpoint or bulk vector file (Shapefile/GeoJSON) identified for full Sikkim historical landslide inventory."
+    },
+    "B_individual_public_landslide_records": {
+      "status": "WEB_VIEWER_INCIDENT_REPORTS",
+      "description": "Individual incident points and field inspection summaries viewable on GSI Bhooskhalan/Bhusanket web map portals."
+    },
+    "C_downloadable_inventory_data": {
+      "status": "NOT_LEGITIMATELY_DOWNLOADABLE",
+      "description": "No unauthenticated API or bulk download link exposed for GIS spatial vector geometry."
+    },
+    "D_web_viewable_records": {
+      "status": "AVAILABLE_ON_WEB_PORTAL",
+      "description": "Bhusanket and Bhooskhalan web interfaces display interactive landslide maps and NLSM susceptibility layers."
+    },
+    "E_susceptibility_products": {
+      "status": "SUSCEPTIBILITY_ONLY",
+      "description": "NLSM (National Landslide Susceptibility Mapping at 1:50,000 scale) produces susceptibility zoning maps, NOT historical event inventory labels."
+    },
+    "F_combination_summary": {
+      "status": "HYBRID_WEB_VIEWER_AND_NLSM_SUSCEPTIBILITY",
+      "description": "GSI provides public web viewer access to incident records and NLSM susceptibility maps, but no unauthenticated bulk vector inventory download."
+    }
+  },
+  "legitimate_vector_geometry_found": false,
+  "geometry_type": null,
+  "crs": null,
+  "inventory_vs_susceptibility_classification": "SUSCEPTIBILITY_SEPARATED_FROM_INVENTORY (NLSM maps strictly excluded from historical event inventory labels)",
+  "temporal_semantics": "EVENT_DATE_WHERE_PROVIDED (GSI incident reports record occurrence dates, but survey/publication dates are NOT mapped to event_date)",
+  "spatial_coverage_status": "STATEWIDE_VIEWABLE / BULK_VECTOR_UNAVAILABLE",
+  "footprint_available": false,
+  "license_status": "NOT_DECLARED_ON_RECORD",
+  "acquisition_disposition": "ACQUISITION_PENDING / METADATA_ONLY",
+  "compliance_rule_enforced": "No bulk vector endpoint was identified during the inspected routes. Strict TLS verification enforced. Web viewer records and NLSM susceptibility zones do NOT constitute spatial GIS vector inventory geometry. Zero geometry fabricated.",
+  "requisition_status": "Formal institutional requisition to GSI required for bulk vector GIS dataset access.",
+  "limitations": "Web viewable incident points and NLSM susceptibility maps available on portal, but no bulk vector Shapefile/GeoJSON download endpoint exists without authentication/institutional requisition.",
+  "security_and_compliance_notes": "All endpoints probed with strict TLS verification enabled. No authentication bypass, CAPTCHA circumventing, or rate-limit violations attempted.",
+  "recurrence_eligibility": "POTENTIAL_RECURRENCE_CONTRIBUTOR (Pending geometry availability and cloud/coverage validation). Current recurrence-eligible observation years remain 0."
+}

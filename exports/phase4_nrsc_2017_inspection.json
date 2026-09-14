@@ -1,0 +1,37 @@
+{
+  "source_id": "NRSC_2017",
+  "dataset_name": "NRSC Seasonal Monsoon Landslide Inventory (2017)",
+  "organization": "National Remote Sensing Centre (NRSC) / ISRO",
+  "observation_year": 2017,
+  "event_date": null,
+  "temporal_semantics": "SEASONAL_MONSOON_INVENTORY (Imagery observation year 2017, event_date = NULL)",
+  "sikkim_coverage": "STATEWIDE_MONSOON_REPORTED (Footprint vector geometry unavailable publicly)",
+  "investigated_endpoints": {
+    "Bhuvan Disaster Management Portal (2017 Seasonal)": {
+      "url": "https://bhuvan-app1.nrsc.gov.in/disaster/disaster.php",
+      "status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "accessible": true,
+      "vector_gis_url_found": false
+    },
+    "ISRO Bhuvan Seasonal WMS Portal": {
+      "url": "https://bhuvan-vec1.nrsc.gov.in/bhuvan/wms",
+      "status": 200,
+      "content_type": "text/xml;charset=UTF-8",
+      "accessible": true,
+      "vector_gis_url_found": false
+    },
+    "NDEM Monsoon Portal 2017": {
+      "url": "https://ndem.nrsc.gov.in",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "accessible": true,
+      "vector_gis_url_found": false
+    }
+  },
+  "legitimate_vector_geometry_found": false,
+  "acquisition_disposition": "ACQUISITION_PENDING / METADATA_ONLY",
+  "compliance_rule_enforced": "No bulk vector endpoint was identified during the inspected routes. WMS raster layers and viewer counts do NOT constitute spatial GIS geometry. Zero geometry fabricated.",
+  "requisition_status": "Formal institutional requisition letter prepared (exports/NRSC_DATA_REQUEST_LETTER.md).",
+  "recurrence_eligibility": "POTENTIAL_RECURRENCE_CONTRIBUTOR (Pending geometry availability and cloud/coverage validation). Current recurrence-eligible observation years remain 0."
+}
